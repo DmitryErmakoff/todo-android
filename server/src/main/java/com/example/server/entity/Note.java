@@ -1,5 +1,6 @@
 package com.example.server.entity;
 
+import com.example.server.annotation.NoExtraFields;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
@@ -9,6 +10,7 @@ import lombok.Data;
 @Builder
 @Entity
 @Table(name = "notes")
+@NoExtraFields
 public class Note {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
