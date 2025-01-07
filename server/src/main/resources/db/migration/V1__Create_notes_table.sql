@@ -1,0 +1,6 @@
+CREATE TABLE notes (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    date DATE NOT NULL,
+    time TIME NOT NULL
+);
