@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="listEmptyText">
+<![CDATA[
+<p><b>What do you want to do today?</b><br> You can create new ToDo <br>using  + button</p>
+]]>
+</string>
+    <string name="actionBarTitle">Bob Todo - RIS-21-1b</string>
+    <string name="editTaskHint">My Task</string>
+    <string name="dialogDate">Date</string>
+    <string name="dialogTime">Time</string>
+    <string name="cardTitle">Title</string>
+    <string name="cardDate">sub title</string>
+    <string name="cardTime">sub title</string>
+</resources>
+Ф
